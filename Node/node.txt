@@ -22,7 +22,7 @@ export from one directory to other
 (by making file index.js exporting module to that then requiring that file)
 
 
-NPM(Npde Package Manager)
+NPM(Node Package Manager)
 standard package manager for node.js
 (command line tool)
 (library of packages)
