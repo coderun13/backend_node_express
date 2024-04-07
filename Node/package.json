@@ -1,0 +1,17 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Tried for import export",
+  "main": "maths.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "import",
+    "export"
+  ],
+  "author": "Sneha Singhl",
+  "license": "ISC",
+  "type": "module"
+}

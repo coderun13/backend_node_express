@@ -8,7 +8,7 @@ for(let i= 2; i<args.length; i++){
 }*/
 
 
-const maths = require("./maths");
+/*const maths = require("./maths");
 
 console.log(maths);
 console.log(maths.sum(2,2));
@@ -17,4 +17,8 @@ console.log(maths.mul(2,2));
 
 const info = require("./fruits");
 
-console.log(info);
+console.log(info);*/
+
+import {sum,PI} from "./maths.js";
+console.log(sum(2,2));
+console.log(PI);

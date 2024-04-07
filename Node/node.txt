@@ -1,0 +1,42 @@
+NODE is Javascript Runtime Envirnoment
+used for server side programming.
+It is not a language,library or framework.
+
+Node REPL
+READ 
+EVALUATE
+PRINT
+LOOP
+
+node.process - this object provides information about, and control over, the current node.js process.
+
+process.argv - returns an array containing the command-line arguments passed when the node.js process was launched.
+
+modules.exports - a special object
+require() - a built-in include external modules that exist in separate files
+
+export from one file to other
+(by module.exports)
+
+export from one directory to other
+(by making file index.js exporting module to that then requiring that file)
+
+
+NPM(Npde Package Manager)
+standard package manager for node.js
+(command line tool)
+(library of packages)
+
+Installing packages
+(npm install<- package name ->)
+ 
+node_modules - The node modules folder contains every installed dependency for project. 
+
+package-lock.json - It records the exact version of every installed dependency, including its sub-dependencies and their versions.
+
+Installing globally
+npm install-g <-package name -> or npm link <-package name ->
+(sudo chown -R SUSER/usr/local/lib/node_modules)
+
+
+
