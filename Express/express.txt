@@ -1,0 +1,34 @@
+library - collection of pre-written code that can be used to perform specific tasks.eg- axions
+
+Framework - set of pre written code that provides a structure for developing software apllications.eg- express
+
+EXPRESS
+(A Node.js web application framework that helps us to make web applications)
+(It is used for server side programming.)
+
+USES
+Listen for incoming request.
+Passes the request.
+match response with routes.
+send suitable response.
+
+PORT - logical endpoints of a network connection that is udes to exchange information between a web server and a web client.
+to stop server press ctrl+C.
+
+To Send Request
+app.use(req,res)
+
+Sending a Response
+Request(req) - http(text based)---passing---convert to request object
+res.send("hello");(used to send request)
+
+Routing
+It is process of selecting a path for traffic in a network or betwwen or across multiple networks.
+res.post,res.get
+
+Nodemon
+(to automatically restart server with code changes)
+
+Path Parameters
+(req.params)
+(variable values)
