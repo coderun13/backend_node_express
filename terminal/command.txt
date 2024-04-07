@@ -1,0 +1,31 @@
+Different terms
+
+Command Line - any interface that is used by entering textual commands.
+Terminal - This is a type of command line 
+Console - A command-line interface used to work with your computer
+Shell - A program running on terminal
+Bash - Apopular shell on Mac OS/Linux
+Z-Shell - Another shell(default)
+
+Basic commands
+
+ls - list files
+pwd - print working directory location
+clear - clear screen
+cd - change directory
+cd.. - back button
+mkdir - make directory
+touch - used to create files(html files,css files etc.)
+rm - remove files
+rmdir - removes empty folders
+rm-rf - removes any folders
+
+
+
+
+
+
+
+
+
+
