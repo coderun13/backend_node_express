@@ -2,10 +2,28 @@ Templating
 EJS(Embedded JavaScript templates)
 EJS is a simple templating language that lets you generate HTML markup with plain Javascript.
 
+Set view == setting templates
 
+Views Directory
+const path = require("path");
+app.set("views",path.join(__dirname,"/views"));
 
+Interpolation syntax
+It refers to embedding expressions into marked up text.
 
+Tags in EJS(converts into string in html)
+<%= - outputs the value into the template(HTML escaped)(variable value)
+<%% - Outputs aliteral '<%'
+<%  - 'Scriptlet' tag for control-flow,no output(loops, conditional statements)
+<%_ - 'Whitespace Slurping' Scriptlet tag strips all whitespace before it.
+<%# - Comment tag no execution, no output
+<%- - Outputs the unescaped value into the template
+%>  - Plain ending tag
+_%> - 'Whitespace Slurping' ending tag removes all whitespace before it.
+-%> - Trim-mode('newline slurp')tag,trims following newline
 
+Includes(sub templates)
 
-
+Serving Static Files
+app.use(express.static(folder_name))
 
