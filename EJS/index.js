@@ -1,6 +1,6 @@
 const express = require("express")
 const app = express();
-const path = require("path");
+const path = require("path"); // views folder path
 
 const port = 8000;
 
@@ -8,10 +8,10 @@ app.listen(port, () => {
     console.log(`listening on port ${port}`);
 });
 
-app.use(express.static("public"));
+app.use(express.static("public")); //path for public folder
 //app.use(express.static(path.join(__dirname,"/public")));
 app.set("view engine", "ejs");
-app.set("views",path.join(__dirname, "/views"));
+app.set("views",path.join(__dirname, "/views")); //path for views folder
 
 //root req
 app.get("/", (req,res) => {
