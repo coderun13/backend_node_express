@@ -1,0 +1,23 @@
+GET Request
+Used to GET some Response
+Data sent in query strings(limited,string data & visible in URL)
+data visible in url.
+
+
+POST Request
+Used to POST something(for Create/Write/Update)
+Data send via request body(any type of data)
+data not visible in url.
+
+Handling Post Request
+Set up POST request route to get some Response
+Parse(readable form) POST request data
+
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
+
+
+
+
+
